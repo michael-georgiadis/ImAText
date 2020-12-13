@@ -13,7 +13,7 @@ namespace ConsoleSample
             var bitmap = new Bitmap(file);
 
             var converter = new ImATextConverter(bitmap);
-
+           
             Console.WriteLine(converter.GetTextifiedImage());
         }
     }

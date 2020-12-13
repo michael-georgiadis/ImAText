@@ -26,7 +26,7 @@ namespace ImAText
             { 200, " " }
         };
 
-        public ReadOnlyDictionary<int, string> RedValues { get; private set; }
+        public ReadOnlyDictionary<int, string> RedValues { get; init; }
 
         public ImATextConverter(Bitmap imageFile)
         {
