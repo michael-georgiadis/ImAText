@@ -75,8 +75,6 @@ namespace ImAText
                 }
             }
 
-            Console.WriteLine(_sb.ToString());
-
             return _sb.ToString();
         }
 

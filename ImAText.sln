@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImAText", "src\ImAText\ImAText.csproj", "{579CDCA3-C016-4E43-AC75-9FBFDA560967}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B665F9E6-2519-40C5-9B23-06D82048FA0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{F92C9F08-5E8E-45DA-B42D-8A3364A14133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSample", "samples\ConsoleSample\ConsoleSample.csproj", "{4F274A14-BDEB-4859-8907-B760575C105C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,17 @@ Global
 		{579CDCA3-C016-4E43-AC75-9FBFDA560967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579CDCA3-C016-4E43-AC75-9FBFDA560967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579CDCA3-C016-4E43-AC75-9FBFDA560967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F274A14-BDEB-4859-8907-B760575C105C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F274A14-BDEB-4859-8907-B760575C105C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F274A14-BDEB-4859-8907-B760575C105C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F274A14-BDEB-4859-8907-B760575C105C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{579CDCA3-C016-4E43-AC75-9FBFDA560967} = {B665F9E6-2519-40C5-9B23-06D82048FA0D}
+		{4F274A14-BDEB-4859-8907-B760575C105C} = {F92C9F08-5E8E-45DA-B42D-8A3364A14133}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {153932B4-FC3C-43B5-A5AE-382414FA2B1F}

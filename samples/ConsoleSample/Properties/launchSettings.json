@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleSample": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\mikeg\\Downloads\\test-image-1.jpg"
+    }
+  }
+}
