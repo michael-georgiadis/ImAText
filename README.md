@@ -14,14 +14,14 @@ Simple. To the already grayscaled image, it gets the R value of every pixel and 
 The Dictionary _redValues consists of the different levels of R values and which character corresponds to what level.  
 To be more specific, those values are:
 
-<b>Level 0:</b> "@"  
-<b>Level 50:</b> "#"  
-<b>Level 70:</b> "8"  
+<b>Level 0  :</b> "@"  
+<b>Level 50 :</b> "#"  
+<b>Level 70 :</b> "8"  
 <b>Level 100:</b> "&"  
 <b>Level 130:</b> "o"  
 <b>Level 160:</b> ":"  
 <b>Level 180:</b> "*"  
-<b>Level 200</b> " "  
+<b>Level 200:</b> " "  
 
 ## How to use it?
 
